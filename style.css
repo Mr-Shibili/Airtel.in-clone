@@ -1,0 +1,444 @@
+@font-face {
+    font-family: Bold;
+    src: url(./fonts/TondoCorp-Bold.ttf);
+}
+@font-face {
+    font-family: Regular;
+    src: url(./fonts/TondoCorp-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+   
+
+}
+
+
+body{
+    margin:0;
+    padding: 0;
+    
+    width: 100%;
+    font-family: Regular;
+}
+.row{
+    font-size: 12px;
+    width:100%;
+    height: 40px;
+    border-bottom: solid thin rgb(238, 235, 235);
+   
+    padding-left: 150px;
+}
+.row1{
+    display: flex;
+    width:100%;
+    
+    height: 70px;
+    padding-left: 150px;
+   
+}
+.raw11{
+    width: 70%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+
+
+.banner{
+    background-color: rgb(56, 238, 223);
+    height: 400px;
+    width: 100%;
+    
+    position: relative;
+    
+}
+.banner-sub{
+    display: flex;
+    
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 150px;
+   
+}
+.but{
+    color: black;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    font-family: Regular;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    width: 137px;
+    height: 40px;
+}
+.img{
+    height: 314px;
+    width:444px;
+    
+}
+
+.r1{
+
+    float: left;
+    border-top: solid;
+    
+    border-top-color: red;
+    padding-top: 10px;
+    font-size: 10px;
+    color: red;
+    font-family: Bold;
+}
+.r2{
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 10px;
+    border-top: solid;
+    color: gray;
+    font-family: Bold;
+}
+
+.r2:hover{
+    border-top-color: red;
+    border-top: solid;
+    color: red;
+}
+.r3{
+    display: flex;
+    justify-content: end;
+    margin-right: 330px;
+    padding-top: 10px;
+    font-size: 10px;
+    border-top: solid;
+    border-top-color: white;
+    font-weight: bold;
+    color:red;
+    font-family:Regular;
+}
+.r4{
+   
+    align-items: center;
+    float: left;
+    margin-left: 20px;
+    height: 8px;
+    font-size: 12px;
+    border-top: solid;
+    padding: 30px 18px;
+    border-top-color: rgb(255, 255, 255);
+    font-family:Regular;
+  
+  
+}
+.r4:hover{
+   background-color: rgb(249, 247, 247);
+    border-top-color: red;
+    border-top: solid;
+    color: red;
+}
+
+
+.logo{
+    padding-top: 0px;
+    float:left;
+    
+    width: 100px;
+    height: 70px;
+    
+}
+h6{
+    text-align:left;
+    font-size: 32px;
+    margin-top: 40px;
+    font-family:Bold;
+}
+p{
+    text-align: left;
+    font-size: 16px;
+    font-family:Regular;
+}
+.b{
+    width:444px;
+    height:314px;
+    margin-right: 350px;
+    margin-top: 15px;
+}
+.recharge{
+    width:100%;
+    height:340px;
+    background-color: white;
+
+}
+.text{
+    text-align: center;
+    margin: 0px;
+    padding-top: 40px;
+}
+.but2{
+    display: flex;
+ 
+   justify-content: center;
+    padding-top: 20px;
+
+}
+.but1{
+   
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    font-family: Regular;
+    border-radius: 25px;
+    background-color: #e3e5ff;
+    color: rgb(7, 7, 7);
+    padding: 10px 20px 10px 20px;
+    
+  
+    
+    }
+.but1:hover{
+ background-color   : #c6c7ce;   
+}
+.but3{
+    border-radius: 25px;
+    width:110px;
+}
+.iputbox{
+    width: 100%;
+    height: 150px;
+    background-color:white;
+    text-align: center;
+    padding-top: 30px;
+    
+
+
+}
+.box{
+    background-color:transparent;
+    border-radius: 10px;
+    height: 44px;
+    width: 347px;
+    font-size: 14px;
+    border-color: #afb5ef;
+    padding-left: 10px;
+    caret-color: #027bfc;
+    line-height: 16px;
+    font-family: Regular;
+}
+.but4{
+        width:362px
+     }
+      
+.getapp{
+    display:flex;
+    height: 44px;
+    width:100%;
+    background-color: red;
+   justify-content: center;
+   margin-top: 40px;
+
+   align-items: center;
+   
+
+}
+.pt{
+    font-size: 14px;
+    font-family: Bold;
+    color: white;
+    text-align: center;
+}
+.butget{
+    margin-left: 10px;
+    cursor: pointer;
+    border:1px solid;
+    border-color:#fff;
+    font-size: 12px;
+    font-family: Regular;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    
+}
+.buy{
+    height: 434px;
+    width:100%
+}    
+.but6{
+
+    margin-left: 100px;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+    font-family: Regular;
+    border-radius: 50px;
+    background-color: #e3e5ff;
+    color: rgb(7, 7, 7);
+    padding: 10px 20px 10px 20px;
+
+}
+.but5{
+    display: flex;
+ 
+    justify-content:center;
+     padding-top: 40px;
+}
+.red{
+    display: flex;
+    width:540px;
+    height: 90px;
+    background-color:red;
+    border-radius: 15px;
+    padding-top: 10px;
+    
+
+    
+}
+.redContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.recommend{
+    width:100%;
+    height: 500px;
+    background-color: #f7f7fa;
+    display: flex;
+    justify-content: space-around;
+
+}
+.switch{
+    width:60px;
+    height:60px;
+    padding: 15px 15px;
+}
+.pt2{
+    font-family: Regular;
+    font-size: 12px;
+    color: white;
+}
+.budget{
+    margin-top: 15px;
+}
+.rec{
+    width:100%;
+    height: 40px;
+    text-align: center;
+}
+.reco{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height:100px;
+    background-color: white;
+    text-align: center;
+}
+.card{
+    width:373px;
+    height: 410px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 30px;
+    
+}
+
+.cardss{ 
+  width:100%;
+  height: 400px;
+  
+}
+.imgcard{
+    width:373px;
+    height:180;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.card .p1,.card h5{
+padding-left:17px;
+}
+
+.card-but{
+    display: flex;
+    padding-left:17px;
+}
+
+.card-but a{
+    padding-left: 2px;
+}
+
+.p2{
+    border: none;
+    padding-left: 17px;
+}
+.bigpic{
+    width: 100%;
+    height:628px;
+    background-image: url(image/back.jpg);
+    background-size: cover;
+    background-color: #c6c7ce;
+
+   
+    
+
+}
+
+.bak{
+   
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    
+}
+.device{   
+    text-align: center;
+    width:378px;
+    height: 412px;   
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 40px;
+}
+.step{
+    color: red;
+    font-size: 12px;
+}
+.lap{
+    margin: 0;
+    font-size: 18px;
+}
+.butl{
+    
+    
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    font-family: Regular;
+    border-radius: 20px;
+    background-color: #e3e5ff;
+    color: rgb(7, 7, 7);
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+    
+    
+}
+.foot{
+    
+        width: 100%;
+        height:628px;
+        
+    
+       
+        
+    
+}
+
+
+
+
